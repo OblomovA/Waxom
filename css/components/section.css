@@ -1,0 +1,28 @@
+.section-top {
+    position: relative;
+    max-height: 1024px;
+}
+
+.section-top-background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -2;
+}
+
+.section-top-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    background-color: rgba(17, 17, 17, 0.7);
+}
+
+.section-top-foreground {
+    position: relative;
+    color: #fff;
+}
