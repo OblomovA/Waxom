@@ -21,10 +21,6 @@
     background-color: #111111;
 }
 
-.button:focus {
-    outline: none;
-}
-
 .button-cart-mobile {
     padding: 5px 10px;
     border: none;

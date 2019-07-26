@@ -88,8 +88,8 @@
                         <div class="hero">
 
                                 <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
-                                        <div uk-slider="autoplay: true" uk-slider="autoplay-interval: 6000" uk-slider="pause-on-hover: true">
-                                            <ul class="uk-slider-items uk-child-width-1-1">
+                                        <div uk-slider="autoplay: true" uk-slider="autoplay-interval: 1000" uk-slider="pause-on-hover: true">
+                                            <ul class="slider-list uk-slider-items uk-child-width-1-1">
                                                 <li>
                                                     <img src="" alt="">
                                                     <h1 class="hero-title">Unique and Modern Design</h1>
@@ -135,25 +135,28 @@
                                                         <button class="button button-header">Get Started</button>
                                                     </div>
                                                 </li>
-                                                <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
-                                                <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
                                             </ul>
+
+                                            <div class="uk-hidden@s uk-light">
+                                                    <a class="arrow-left uk-slidenav-large uk-position-center-left uk-position-small" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                                                    <a class="arrow-right uk-slidenav-large uk-position-center-right uk-position-small" href="#" uk-slidenav-next uk-slider-item="next"></a>
+                                                </div>
+                                        
+                                                <div class="uk-visible@s">
+                                                    <a class="arrow-left uk-position-center-left-out uk-position-small" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                                                    <a class="arrow-right uk-position-center-right-out uk-position-small" href="#" uk-slidenav-next uk-slider-item="next"></a>
+                                                </div>
                                         </div>
-                                        <ul class="hero-dotnav uk-dotnav uk-position-bottom-center">
+                                        <!--<ul class=" uk-dotnav ">
                                             <li><a href="#">Item 1</a></li>
                                             <li><a href="#">Item 2</a></li>
                                             <li><a href="#">Item 3</a></li>
-                                            <li><a href="#">Item 4</a></li>
-                                            <li><a href="#">Item 5</a></li>
-                                        </ul>
+                                            <li><a href="#">Item 4</a></li>hero-dotnav
+                                            <li><a href="#">Item 5</a></li>uk-position-bottom-center
+                                        </ul>-->
+                                        <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
                                 </div>
 
-                            <!--<h1 class="hero-title">Unique and Modern Design</h1>
-                            <p class="hero-subtitle">Portfolio PSD Template</p>
-                            <p class="hero-description">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.</p>
-                            <div class="form-control">
-                                <button class="button button-header">Get Started</button>
-                            </div>-->
                         </div>
                     </div>
                 </div>
