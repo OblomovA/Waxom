@@ -2,6 +2,30 @@
     max-width: 589px;
 }
 
-.slider-list {
+.dotnav {
+    display: flex;
+    justify-content: center;
     flex-wrap: wrap;
+    list-style: none;
+}
+
+.dotnav > * {
+    flex: none;
+    margin: 0;
+    padding-left: 10px;
+}
+
+.dotnav > * > * {
+    width: 11px;
+    height: 11px;
+    display: block;
+    border-radius: 50%;
+    background: 0 0;
+    text-indent: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    background-color: rgba(153, 134, 117, .5);
+    border: 1px solid rgba(102,102,102,.4);
+    transition: .2s ease-in-out;
+    transition-property: background-color,border-color;
 }

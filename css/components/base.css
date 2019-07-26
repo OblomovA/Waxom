@@ -48,6 +48,10 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0 0 0.67em 0;
 }
 
+ul, ol {
+    list-style-type: none;
+}
+
 p, ul, ol, figure {
     margin: 0 0 15px 0;
 }
