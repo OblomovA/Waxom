@@ -7,6 +7,8 @@
     justify-content: center;
     flex-wrap: wrap;
     list-style: none;
+    text-align: center;
+    padding: 0 10px 0 0;
 }
 
 .dotnav > * {
@@ -28,4 +30,16 @@
     border: 1px solid rgba(102,102,102,.4);
     transition: .2s ease-in-out;
     transition-property: background-color,border-color;
+}
+
+.dotnav > * > *:hover {
+    background-color:transparent;
+    border: 2px solid rgb(211, 193, 173);
+    transform: scale(1.1);
+}
+
+.dotnav > * > *:focus {
+    background-color:transparent;
+    border: 2px solid rgb(211, 193, 173);
+    outline: none;
 }

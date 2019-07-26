@@ -34,8 +34,14 @@
     background-color: rgb(17, 17, 17, 0.5);
 }
 
-@media (min-width: 640px) {
+@media (min-width: 900px) {
     .form-control {
-        margin-bottom: 210px;
+        margin-bottom: 140px;
+    }
+}
+
+@media (min-width: 1080px) {
+    .form-control {
+        margin-bottom: 200px;
     }
 }
