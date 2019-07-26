@@ -1,3 +1,7 @@
 .slider-list {
     max-width: 589px;
 }
+
+.slider-list {
+    flex-wrap: wrap;
+}
