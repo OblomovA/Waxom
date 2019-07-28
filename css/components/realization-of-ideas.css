@@ -1,8 +1,3 @@
-.realization-of-ideas-description {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    text-align: center;
-    max-width: 770px;
-    margin: auto;
+.realization-of-ideas-items img {
+    object-fit: fill;
 }

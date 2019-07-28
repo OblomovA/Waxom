@@ -1,0 +1,10 @@
+.feedback-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    align-items: center;
+}
+
+.f-text {
+    font-size: 18px;
+}
