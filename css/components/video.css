@@ -1,0 +1,46 @@
+.video {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+}
+
+.video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -2;
+}
+
+.video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    background-color: rgba(17, 17, 17, 0.5);
+}
+
+.video-foreground {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.video-description {
+    max-width: 560px;
+}
+
+.video-duration {
+    color: #c7b299;
+    font-size: 14px;
+}
+
+@media (min-width: 640px) {
+    .video {
+        min-height: 70vh;
+    }
+}
