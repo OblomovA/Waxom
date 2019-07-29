@@ -37,6 +37,7 @@
 .video-duration {
     color: #c7b299;
     font-size: 14px;
+    padding-bottom: 30px;
 }
 
 @media (min-width: 640px) {
