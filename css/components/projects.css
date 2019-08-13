@@ -13,4 +13,5 @@
     border-left-color: transparent;
     border-right-color: transparent;
     border-top-color: transparent;
+    z-index: 0;
 }

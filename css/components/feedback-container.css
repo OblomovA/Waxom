@@ -1,8 +1,19 @@
 .feedback-container {
-    display: flex;
     justify-content: space-between;
     padding: 50px;
-    align-items: center;
+    text-align: center;
+}
+
+@media (min-width: 640px) {
+    .feedback-container {
+        display: flex;
+        align-items: center;
+        text-align: left;
+    }
+}
+
+.feedback-text {
+    margin: 0 15px 15px 0;
 }
 
 .f-text {
