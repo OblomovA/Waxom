@@ -41,9 +41,3 @@
     color: #c7b299;
     font-size: 14px;
 }
-
-@media (min-width: 640px) {
-    .video {
-        min-height: 70vh;
-    }
-}

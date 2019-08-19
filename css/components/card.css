@@ -3,10 +3,7 @@
     margin: auto;
     margin-bottom: 30px;
     text-align: center;
-}
-
-.card-body {
-    padding: 30px 20px;
+    box-sizing: border-box
 }
 
 .card-body-statistics * {
@@ -17,8 +14,20 @@
     margin-bottom: 20px;
 }
 
+.card-body-statistics, .card-statistics-top {
+    margin-bottom: 30px;
+}
+
 .card-body-services {
     padding: 0;
+}
+
+.card-services:hover #icon-services-hover {
+    fill: rgb(199, 178, 153);
+}
+
+.card-services:hover .card-title-service {
+    color: rgb(199, 178, 153);
 }
 
 .card-project {
@@ -27,8 +36,7 @@
 
 @media (min-width: 640px) {
     .card-project {
-        padding: 1em;
-        float: left;
+
         text-align: left;
     }
 }
@@ -50,8 +58,27 @@
     opacity: 0;
   }
   
-.card-content-project:hover .content-project-overlay {
+.card:hover .content-project-overlay,
+.card:hover .card-icon-project {
     opacity: 1;
+}
+
+.card:hover .card-body-project {
+    background-color: #362f2d;
+}
+
+
+.card:hover .card-media-title-project {
+    color: #d1d1d1;
+}
+
+.card:hover .card-media-text {
+    color: #c7b299;
+}
+
+
+.card-project:hover .triangle{
+    border-bottom-color:#362f2d
 }
 
 .card-icon-project {
@@ -67,15 +94,14 @@
     left: 50%;
     opacity: 0;
     transform: translate(-50%, -50%);
-    transition: all 0.3s ease-in-out 0s;
 }
 
 .card-icon-project li {
     padding: 0 25px;
 }
 
-.card-content-project:hover .card-icon-project {
-    opacity: 1;
+.card-icon-project .different-color svg path{
+    color: #d1d1d1;
 }
 
 .card-body-project {
@@ -85,24 +111,12 @@
     z-index: 2;
 }
 
-.card-content-project:hover .card-body-project {
-    background-color: #362f2d;
-}
-
 .card-media-title-project {
     color: #c7b299;
 }
 
 .card-media-text {
     color: #d1d1d1;
-}
-
-.card-content-project:hover .card-media-title-project {
-    color: #d1d1d1;
-}
-
-.card-content-project:hover .card-media-text {
-    color: #c7b299;
 }
 
 .card-body-adaptation {
@@ -132,7 +146,7 @@
 
 .card-statistics {
     padding: 0;
-    margin: 0;
+    margin: auto;
     width: 180px;
 }
 
@@ -142,7 +156,3 @@
     display: flex;
 }
 
-.card-hover:hover {
-    background-color: #fff;
-    box-shadow: 0 14px 25px rgba(199, 178, 153, .1);
-}

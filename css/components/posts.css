@@ -7,6 +7,10 @@
     z-index: -1;
 }
 
+.posts-background img {
+    object-fit: cover;
+}
+
 .posts-overlay {
     position: absolute;
     top: 0;
